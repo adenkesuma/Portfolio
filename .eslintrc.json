@@ -1,4 +1,15 @@
 {
   "root": true,
-  "extends": ["next/babel","next/core-web-vitals"]
+  "extends": ["next/babel","next/core-web-vitals"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ]
+  }
 }
