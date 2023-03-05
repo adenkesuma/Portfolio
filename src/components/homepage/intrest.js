@@ -11,11 +11,11 @@ const Intrest = () => {
                 Intrest
             </Heading>
             <Paragraph>
-                Art, Design, {' '}
-                <Link href="/" target="_blank">
-                Design,
-                </Link>
-                {' '}sport, Read a book
+                Art,
+                Design, 
+                sport, 
+                Read,
+                Draw
             </Paragraph>
         </Section>
     </>

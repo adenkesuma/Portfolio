@@ -6,7 +6,7 @@ const Bio = () => {
     return (
         <>
             <Section delay={0.2}>
-                <Heading as="h3" fontSize={24} variant="section-title">
+                <Heading as="h3" marginBottom=".5rem" fontSize={24} variant="section-title">
                     Bio
                 </Heading>
                 <BioSection>

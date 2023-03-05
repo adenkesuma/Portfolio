@@ -3,7 +3,6 @@ import { forwardRef } from 'react';
 import { 
     Container,
     Box,
-    Link,
     Stack,
     Heading,
     Flex,
@@ -16,7 +15,8 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NextLink } from 'next/link';
-import ThemeToggleButton from "./ThemeToggleButton";``
+import ThemeToggleButton from "./ThemeToggleButton";
+import Link from "next/link";
 
 const LinkItem = ({ href, path, children }) => {
     const active = path === href;
@@ -34,7 +34,7 @@ const LinkItem = ({ href, path, children }) => {
 }
 
 const MenuLink = forwardRef((props, ref) => (
-  <Link ref={ref} as={NextLink} {...props} />
+    <Link ref={ref} as={NextLink} {...props} />
 ))
 
 const Navbar = props => {
@@ -65,7 +65,8 @@ const Navbar = props => {
                 >   
                     <LinkItem href="/" path={path}>Home</LinkItem>
                     <LinkItem href="/works" path={path}>Works</LinkItem>
-                    <LinkItem href="/posts" path={path}>Posts</LinkItem>
+                    <LinkItem href="/blogs" path={path}>Blogs</LinkItem>
+                    <LinkItem href="/design" path={path}>My Design</LinkItem>
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
