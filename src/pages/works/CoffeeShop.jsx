@@ -7,7 +7,8 @@ import {
   UnorderedList,
   Heading,
   Center,
-  Image
+  Image,
+  SimpleGrid
 } from '@chakra-ui/react'
 import Layout from '../../components/Layouts/Article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -16,103 +17,32 @@ import P from '../../components/Paragraph'
 
 const Work = () => (
   <Layout title="coffee-shop">
-    <Container>
+    <Container maxW='2xl'>
       <Title>
-        freeDBTagger <Badge>2004-2009</Badge>
+        Coffee Shop <Badge>2022</Badge>
       </Title>
-      <P>Automatic audio file tagging tool using FreeDB for Windows</P>
-      <P>楽曲長の組み合わせでアルバムを特定して楽曲情報を自動入力</P>
       <P>
        Coffee-Shop is a front-end website project designed to showcase an inviting and cozy coffee shop. The website features a visually appealing user interface with high-quality images that highlight the coffee shop's unique atmosphere and charm. Visitors to the website can easily navigate through various pages such as the home page, menu page, gallery page, contact page, and possibly an online ordering page if needed. The design of the pages creates a warm and comfortable ambiance that reflects the coffee shop's image. The website is optimized for responsiveness and accessibility, ensuring that it can be accessed on a variety of devices with ease. Coffee-Shop's front-end website provides a seamless and enjoyable experience for users who want to explore and learn more about this charming coffee spot.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows 2000/XP</span>
+          <Meta>Website</Meta>
+          <Link href="https://adenkesuma.github.io/web-coffee-shop/">
+            https://adenkesuma.github.io/web-coffee-shop/ <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Delphi</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Download</Meta>
-          <Link href="http://odoruinu.net.s3.amazonaws.com/software/freedbtagger/fdbt105.zip">
-            v1.0.5
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Last update</Meta>
-          <span>2009/02/16</span>
+          <span>Html / Css / Javascript </span>
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://forest.watch.impress.co.jp/article/2005/02/01/freedbtagger.html">
-            <Badge mr={2}>窓の杜</Badge>
-            再生時間の組み合わせでアルバムを特定して楽曲情報を取得「freeDBTagger」{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList>
-
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>
-          User reviews&nbsp;
-          <Link
-            target="_blank"
-            href="http://www.vector.co.jp/soft/cmt/win95/art/se350576.html"
-          >
-            from Vector
-          </Link>
-        </Center>
-      </Heading>
-
-      <UnorderedList my={4}>
-        <ListItem>
-          <Badge mr={2}>FLACにも対応 - よーすけさん</Badge>
-          <span>
-            音質にこだわってFLACを使用している場合、
-            なかなかタグを自動で付けられるソフトはありませんが、
-            これはCDDBから曲情報をDLまでしてくれるので、 とてもお手軽簡単です。
-          </span>
-        </ListItem>
-        <ListItem>
-          <Badge mr={2}>CDDB対応のタグエディタ - noname_24さん</Badge>
-          <span>
-            純粋なタグ打ちソフトとしての能力はSuperTagEditorの方が優秀ですがこのソフトはCDDBに対応しているのが最大の利点です
-            CDからだけではなくmp3など圧縮後の状態からでも取得できるのですでに作成済みの曲整理が楽になりました
-          </span>
-        </ListItem>
-        <ListItem>
-          <Badge mr={2}>昔の曲にタグを入れるに最適 - るるさん</Badge>
-          <span>
-            最近のリッピングソフトであれば自動で曲名を持ってきてくれますが以前リッピングしたままでタグが付いてない曲にタグを付けるのには最適です。
-            参照しているCDDBについてもかなりマイナーなものまで曲名を拾ってくれるのでびっくりします。
-          </span>
-        </ListItem>
-        <ListItem>
-          <Badge mr={2}>2 in 1 - マルちゃんさん</Badge>
-          <span>
-            タグ編集はいろいろなソフトが出ていますが、DBから情報を拾ってくれる機能付では、このソフトが最高です。
-            操作も簡単で、手放せません。
-          </span>
-        </ListItem>
-        <ListItem>
-          <Badge mr={2}>便利 - Masaki4さん</Badge>
-          <span>
-            普通CDDBというとCDを入れた状態でデータベースから読み込んでいきますが、このソフトはMP3などのファイルになっていても使えます。（もちろん、CDの通りに曲を並べなければいけませんが・・・）
-            ただ、ほんのちょっと不安定さを感じたので４つ...
-          </span>
-        </ListItem>
-      </UnorderedList>
-
-      <WorkImage src="/images/works/freedbtagger_01.jpg" alt="freeDBTagger" />
+      <WorkImage src="/images/works/coffee-shop.png" alt="coffee shop" />
+      <SimpleGrid columns={2} gap={4}>
+        <WorkImage src="/images/works/coffee-shop-2.png" alt="coffee shop 2" />
+        <WorkImage src="/images/works/coffee-shop-3.png" alt="coffee shop 3" />
+      </SimpleGrid>
     </Container>
   </Layout>
 )

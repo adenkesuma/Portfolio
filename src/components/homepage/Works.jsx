@@ -11,19 +11,7 @@ const Works = () => {
                 Work
             </Heading>
             <Paragraph>
-                Aden is a student and a front-end developer based in medan with a
-                passion for building a website responsive design and interactive,
-                i have a lot of interest of design and web developer and now i'm 
-                studying at university, i publishes content for web development tips on his youtube channel called &quot;
-                <Link
-                as={NextLink}
-                href="https://www.youtube.com/watch?v=tkbqnsiwrkk&t=521s"
-                passHref
-                target="_blank"
-                >
-                Aden
-                </Link>
-                &quot; has more than 40 subscribers
+              I am a self-motivated individual currently studying front-end web development on my own for about a year. I am passionate about creating visually appealing and user-friendly websites. I am proficient in using Figma for UI/UX design and am currently focusing on deepening my knowledge of the Next.js framework. I am ambitious to become an excellent front-end developer and constantly seek new learning opportunities to hone my skills.
             </Paragraph>
             {/* <Box align="center" my={4}>
                 <Button 

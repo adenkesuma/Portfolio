@@ -22,17 +22,17 @@ const Blogs = () => (
           <GridItem
             title="Top 6 Most Popular Tech Stack in 2023"
             thumbnail={techStackThumnail}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+            href="https://medium.com/@adenfdfd10/top-6-most-popular-tech-stack-in-2023-3e4276333cf8"
           />
           <GridItem
             title="The highest paying tech jobs in 2023"
             thumbnail={salariesThumnail}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
+            href="https://medium.com/@adenfdfd10/the-highest-paying-tech-jobs-in-2023-5ef3d86d2dcf"
           />
           <GridItem
             title="Steps to Creating a Responsive Web Design"
             thumbnail={responsiveThumnail}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
+            href="https://medium.com/@adenfdfd10/steps-to-creating-a-responsive-web-design-4e1428a013d2"
           />
         </SimpleGrid>
       </Section>
@@ -45,12 +45,12 @@ const Blogs = () => (
           <GridItem
             title="The Future of Artificial Intelligence"
             thumbnail={aiThumnail}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
+            href="https://medium.com/@adenfdfd10/the-future-of-artificial-intelligence-1bcb942ddca8"
           />
           <GridItem
             title="Top 5 Most Popular CSS Framework in 2023"
             thumbnail={cssFrameworkThumnail}
-            href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
+            href="https://medium.com/@adenfdfd10/top-5-most-popular-css-framework-in-2023-e5f0f133eca"
           />
         </SimpleGrid>
       </Section>
@@ -60,7 +60,7 @@ const Blogs = () => (
           <GridItem
             title="Web3: The Next Generation of Blockchain Technology and its Potential to Transform Industries"
             thumbnail={blockchainThumnail}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            href="https://medium.com/@adenfdfd10/web3-the-next-generation-of-blockchain-technology-and-its-potential-to-transform-industries-d8bbddfe9200"
           />
         </SimpleGrid>
       </Section>
