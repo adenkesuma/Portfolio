@@ -4,8 +4,8 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 // import component
 import Layout from "../components/Layouts/Main";
-import theme from '@/lib/Theme';
-import Fonts from '@/components/Font';
+import theme from '../lib/Theme';
+import Fonts from '../components/Font';
 import '@/styles/globals.css';
 
 export default function App({ Component, pageProps, router }) {
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps, router }) {
     <ChakraProvider theme={theme}>
       <Fonts />
       <Layout router={router}>
-        <AnimatePresence exitBeforeEnter intial={true}>
+        <AnimatePresence mode='wait' initial={true}>
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </Layout>

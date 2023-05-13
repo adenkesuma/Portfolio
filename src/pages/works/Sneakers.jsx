@@ -28,7 +28,7 @@ const Work = () => (
       <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="hhttps://adenkesuma.github.io/web-ecommerce-nike-shoes/">
+            <Link href="hhttps://adenkesuma.github.io/web-ecommerce-nike-shoes/" target='_blank'>
               https://adenkesuma.github.io/web-ecommerce-nike-shoes/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

@@ -3,7 +3,7 @@ import {
   cookieStorageManagerSSR,
   localStorageManager
 } from '@chakra-ui/react'
-import theme from '../lib/theme'
+import theme from '../lib/Theme'
 
 export default function Chakra({ cookies, children }) {
   const colorModeManager =

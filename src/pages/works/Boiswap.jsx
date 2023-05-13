@@ -35,7 +35,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://boiswap.webflow.io/">
+          <Link href="https://boiswap.webflow.io/" target='_blank'>
             https://boiswap.webflow.io/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

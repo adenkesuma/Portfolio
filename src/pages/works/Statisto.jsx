@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://web-statistic.webflow.io/">
+          <Link href="https://web-statistic.webflow.io/" target='_blank'>
             https://web-statistic.webflow.io/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

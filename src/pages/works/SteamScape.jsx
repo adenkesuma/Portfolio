@@ -24,7 +24,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://youtube-clone-sandy-five.vercel.app/">
+          <Link href="https://youtube-clone-sandy-five.vercel.app/" target='_blank'>
             https://youtube-clone-sandy-five.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
