@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "@/components/Section";
 import { WorkGridItem } from "@/components/gridItem";
 import statisto from '../../../public/images/works/statisto.png';
@@ -7,9 +7,6 @@ import coffeeShop from '../../../public/images/works/coffee-shop.png';
 import ecommerceNikeShoes from '../../../public/images/works/ecommerce-nike-shoes.png';
 import omnifood from '../../../public/images/works/omnifood.png';
 import steamScape from '../../../public/images/works/steam-scape.png';
-
-import thumbWalknote from '../../../public/images/works/walknote_eyecatch.png';
-import thumbMenkiki from '../../../public/images/works/menkiki_eyecatch.png';
 import Layout from "@/components/Layouts/Article";
 import Footer from "@/components/Footer";
 

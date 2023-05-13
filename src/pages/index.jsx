@@ -6,7 +6,7 @@ import Layout from "@/components/Layouts/Article";
 import About from "@/components/homepage/About";
 import Works from "../components/homepage/Works";
 import Bio from "@/components/homepage/Bio";
-import Intrest from "@/components/homepage/Intrest";
+import Interest from "@/components/homepage/Interest";
 import Footer from "@/components/Footer";
 import Media from "@/components/homepage/Media";
 
@@ -17,7 +17,7 @@ export default function Home() {
         <About />
         <Works />
         <Bio />
-        <Intrest />
+        <Interest />
         <Media />
         <Footer />
       </Container>
@@ -25,4 +25,4 @@ export default function Home() {
   )
 } 
 
-export { getServerSideProps } from '../components/chakra';
+export { getServerSideProps } from '../components/Chakra';

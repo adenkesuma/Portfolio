@@ -3,7 +3,7 @@ import Paragraph from "../Paragraph";
 import { Heading } from "@chakra-ui/react";
 import Link from "next/link";
 
-const Intrest = () => {
+const Interest = () => {
   return (
     <>
         <Section delay={0.3}>
@@ -22,4 +22,4 @@ const Intrest = () => {
   )
 }
 
-export default Intrest;
+export default Interest;

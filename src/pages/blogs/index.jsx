@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/Layouts/Article';
-import Section from '../../components/section';
+import Section from '../../components/Section';
 import Footer from '@/components/Footer';
 import { GridItem } from '../../components/gridItem';
 import aiThumnail from "../../../public/images/contents/ai-blog.jpg";
