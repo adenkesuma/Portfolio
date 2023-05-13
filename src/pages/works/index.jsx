@@ -23,7 +23,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="Statisto" title="statisto" thumbnail={statisto}>
-           Statisto is a landing page designed with a visually appealing and modern look.
+            Statisto is a landing page designed with a visually appealing and modern look.
           </WorkGridItem>
         </Section>
         <Section>
