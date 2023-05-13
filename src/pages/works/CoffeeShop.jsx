@@ -4,10 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
-  Heading,
-  Center,
-  Image,
   SimpleGrid
 } from '@chakra-ui/react'
 import Layout from '../../components/Layouts/Article'
@@ -47,5 +43,6 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+
+export { getServerSideProps } from '../../components/Chakra';

@@ -19,15 +19,15 @@ const About = () => {
                 align="center"
             >
                 <Image 
-                borderColor="whiteAlpha.800" 
-                borderWidth={2} 
-                borderStyle="solid"
-                w="100px"
-                h="100px"
-                display="inline-block"
-                borderRadius="full" 
-                src="/images/aden.jpg"
-                alt="profile image"
+                  borderColor="whiteAlpha.800" 
+                  borderWidth={2} 
+                  borderStyle="solid"
+                  w="100px"
+                  h="100px"
+                  display="inline-block"
+                  borderRadius="full" 
+                  src="/images/aden.jpg"
+                  alt="profile image"
                 />
             </Box>
         </Box> 

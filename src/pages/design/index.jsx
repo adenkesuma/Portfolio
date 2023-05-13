@@ -52,3 +52,5 @@ const Design = () => {
 }
 
 export default Design;
+
+export { getServerSideProps } from "../../components/Chakra";

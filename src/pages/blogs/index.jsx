@@ -70,4 +70,5 @@ const Blogs = () => (
 )
 
 export default Blogs;
-export { getServerSideProps } from '../../components/chakra';
+
+export { getServerSideProps } from '../../components/Chakra';

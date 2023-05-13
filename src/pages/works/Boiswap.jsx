@@ -5,9 +5,6 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
-  Heading,
-  Center,
   SimpleGrid
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -54,5 +51,6 @@ const Work = () => (
   </Layout>
 );
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+
+export { getServerSideProps } from '../../components/Chakra';
