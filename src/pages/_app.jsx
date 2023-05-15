@@ -3,10 +3,10 @@ import { AnimatePresence } from 'framer-motion';
 import { ChakraProvider } from '@chakra-ui/react';
 
 // import component
-import Layout from "../components/Layouts/Main";
 import theme from '../lib/Theme';
-import Fonts from '../components/Font';
 import '@/styles/globals.css';
+import Layout from '@/components/layouts/Article';
+import Fonts from '@/components/Font';
 
 export default function App({ Component, pageProps, router }) {
   return (

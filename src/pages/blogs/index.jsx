@@ -1,14 +1,14 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../../components/Layouts/Article';
-import Section from '../../components/Section';
 import Footer from '@/components/Footer';
-import { GridItem } from '../../components/gridItem';
 import aiThumnail from "../../../public/images/contents/ai-blog.jpg";
 import blockchainThumnail from "../../../public/images/contents/blockchain-blog.jpg";
 import cssFrameworkThumnail from "../../../public/images/contents/css-framework.jpg";
 import salariesThumnail from "../../../public/images/contents/salaries-tech-blog.jpg";
 import techStackThumnail from "../../../public/images/contents/tech-stack-blog.jpg";
 import responsiveThumnail from "../../../public/images/contents/responsive-blog.jpg";
+import Layout from '@/components/layouts/Article';
+import Section from '@/components/Section';
+import { GridItem } from '@/components/GridItem';
 
 const Blogs = () => (
   <Layout title="Blogs">
@@ -71,4 +71,4 @@ const Blogs = () => (
 
 export default Blogs;
 
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';

@@ -4,11 +4,11 @@ import { Container } from "@chakra-ui/react";
 // import component
 import Layout from "@/components/Layouts/Article";
 import About from "@/components/homepage/About";
-import Works from "../components/homepage/Works";
 import Bio from "@/components/homepage/Bio";
 import Interest from "@/components/homepage/Interest";
 import Footer from "@/components/Footer";
 import Media from "@/components/homepage/Media";
+import Works from "@/components/homepage/Works";
 
 export default function Home() {
   return (
@@ -25,4 +25,4 @@ export default function Home() {
   )
 } 
 
-export { getServerSideProps } from '../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';
