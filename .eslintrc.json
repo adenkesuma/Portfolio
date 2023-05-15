@@ -1,7 +1,8 @@
 {
   "root": true,
-  "extends": ["next/babel","next/core-web-vitals"],
-  "plugins": ["prettier"],
+  "extends": ["next"],
+  // "ignorePatterns": ["node_modules", "dist"],
+  // "plugins": ["prettier"],
   "rules": {
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off",
@@ -14,3 +15,4 @@
     ]
   }
 }
+
