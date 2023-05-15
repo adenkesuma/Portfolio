@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "@/components/Section";
-import { WorkGridItem } from "@/components/gridItem";
+import { WorkGridItem } from "@/components/GridItem";
 import statisto from '../../../public/images/works/statisto.png';
 import boiswap from '../../../public/images/works/boiswap.png';
 import coffeeShop from '../../../public/images/works/coffee-shop.png';
