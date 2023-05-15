@@ -1,13 +1,9 @@
-import { Heading, Box, List, ListItem, Button } from "@chakra-ui/react";
-import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram, IoLogoYoutube } from "react-icons/io5";
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { Heading, List, ListItem, Button } from "@chakra-ui/react";
+import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram } from "react-icons/io5";
 import Link from "next/link";
-import NextLink from "next/link";
-import { SimpleGrid } from "@chakra-ui/react";
 
 // import component
 import Section from "../Section";
-import { GridItem } from "../gridItem";
 
 const Media = () => {
     return (

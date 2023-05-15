@@ -4,11 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center,
-  Image
+  SimpleGrid
 } from '@chakra-ui/react'
 import Layout from '../../components/Layouts/Article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'

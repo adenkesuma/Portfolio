@@ -12,20 +12,42 @@ export const DogSpinner = () => (
   />
 )
 
-export const DogContainer = forwardRef(({ children }, ref) => (
-  <Box
-    ref={ref}
-    className="voxel-dog"
-    m="auto"
-    mt={['-20px', '-60px', '-120px']}
-    mb={['-40px', '-140px', '-200px']}
-    w={[280, 480, 640]}
-    h={[280, 480, 640]}
-    position="relative"
-  >
-    {children}
-  </Box>
-))
+// export const DogContainer = forwardRef(({ children }, ref) => (
+//   <Box
+//     ref={ref}
+//     className="voxel-dog"
+//     m="auto"
+//     mt={['-20px', '-60px', '-120px']}
+//     mb={['-40px', '-140px', '-200px']}
+//     w={[280, 480, 640]}
+//     h={[280, 480, 640]}
+//     position="relative"
+//   >
+//     {children}
+//   </Box>
+// ))
+
+const DogContainer = forwardRef(function DogContainer({ children }, ref) {
+  return (
+    <Box
+      ref={ref}
+      className="voxel-dog"
+      m="auto"
+      mt={['-20px', '-60px', '-120px']}
+      mb={['-40px', '-140px', '-200px']}
+      w={[280, 480, 640]}
+      h={[280, 480, 640]}
+      position="relative"
+    >
+      {children}
+    </Box>
+  );
+});
+
+DogContainer.displayName = 'DogContainer';
+
+export { DogContainer };
+
 
 const Loader = () => {
   return (

@@ -1,7 +1,6 @@
 import Section from "../Section";
 import Paragraph from "../Paragraph";
-import { Heading, Link, Box, Button } from "@chakra-ui/react";
-import { NextLink } from 'next/link';
+import { Heading } from "@chakra-ui/react";
 
 const Works = () => {
   return (
