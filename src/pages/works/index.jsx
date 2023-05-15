@@ -7,7 +7,7 @@ import coffeeShop from '../../../public/images/works/coffee-shop.png';
 import ecommerceNikeShoes from '../../../public/images/works/ecommerce-nike-shoes.png';
 import omnifood from '../../../public/images/works/omnifood.png';
 import steamScape from '../../../public/images/works/steam-scape.png';
-import Layout from "@/components/Layouts/Article";
+import Layout from "@/components/layouts/Article";
 import Footer from "@/components/Footer";
 
 const Works = () => (

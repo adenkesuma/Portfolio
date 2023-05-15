@@ -2,7 +2,7 @@
 import { Container } from "@chakra-ui/react";
 
 // import component
-import Layout from "@/components/Layouts/Article";
+import Layout from "@/components/layouts/Article";
 import About from "@/components/homepage/About";
 import Bio from "@/components/homepage/Bio";
 import Interest from "@/components/homepage/Interest";

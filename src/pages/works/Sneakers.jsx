@@ -6,7 +6,7 @@ import {
   ListItem,
   SimpleGrid
 } from '@chakra-ui/react'
-import Layout from '@/components/Layouts/Article'
+import Layout from '@/components/layouts/Article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '@/components/Works'
 import P from '@/components/Paragraph'

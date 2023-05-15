@@ -9,7 +9,7 @@ import {
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '@/components/Works'
 import P from '@/components/Paragraph'
-import Layout from '@/components/Layouts/Article'
+import Layout from '@/components/layouts/Article'
 
 const Work = () => (
   <Layout title="Statisto">
