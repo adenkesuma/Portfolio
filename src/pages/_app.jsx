@@ -5,7 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 // import component
 import theme from '../lib/Theme';
 import '@/styles/globals.css';
-import Layout from '@/components/layouts/Article';
+import Layout from '@/components/layouts/Main';
 import Fonts from '@/components/Font';
 
 export default function App({ Component, pageProps, router }) {
