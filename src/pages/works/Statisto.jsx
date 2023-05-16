@@ -7,9 +7,9 @@ import {
   SimpleGrid
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Works'
-import P from '../../components/Paragraph'
-import Layout from '../../components/Layouts/Article'
+import { Title, WorkImage, Meta } from '@/components/Works'
+import P from '@/components/Paragraph'
+import Layout from '@/components/layouts/Article'
 
 const Work = () => (
   <Layout title="Statisto">
@@ -44,4 +44,4 @@ const Work = () => (
 
 export default Work;
 
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';

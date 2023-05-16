@@ -6,10 +6,10 @@ import {
   ListItem,
   SimpleGrid,
 } from '@chakra-ui/react'
-import Layout from '../../components/Layouts/Article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Works'
-import P from '../../components/Paragraph'
+import Layout from '@/components/layouts/Article';
+import { Meta, Title, WorkImage } from '@/components/Works';
+import Paragraph from '@/components/Paragraph';
 
 const Work = () => (
   <Layout title="omnifood">
@@ -17,7 +17,7 @@ const Work = () => (
       <Title>
         Omnifood <Badge>2022</Badge>
       </Title>
-      <P>
+      <Paragraph>
         Omnifood is an online food ordering website that offers a wide range of
         features and boasts a sleek and modern design. The website provides
         users with a convenient and hassle-free way to order food online.
@@ -28,7 +28,7 @@ const Work = () => (
         ordering system ensures that users receive their food in a timely
         manner, making it the perfect solution for anyone looking for a
         convenient and reliable way to order food online.
-      </P>
+      </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
@@ -53,4 +53,4 @@ const Work = () => (
 
 export default Work;
 
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';

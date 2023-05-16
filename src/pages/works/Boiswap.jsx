@@ -7,9 +7,9 @@ import {
   SimpleGrid
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Works'
-import P from '../../components/Paragraph'
-import Layout from '../../components/Layouts/Article'
+import Layout from '@/components/layouts/Article';
+import { Meta, Title, WorkImage } from '@/components/Works';
+import Paragraph from '@/components/Paragraph';
 
 const Work = () => (
   <Layout title="boiswap">
@@ -17,7 +17,7 @@ const Work = () => (
       <Title>
         Boiswap <Badge>2023</Badge>
       </Title>
-      <P>
+      <Paragraph>
         Boiswap is a cryptocurrency landing page that provides a user-friendly
         interface for investors and enthusiasts in the crypto world. The landing
         page showcases the latest information about different cryptocurrencies
@@ -27,7 +27,7 @@ const Work = () => (
         from anywhere. With Boiswap, users can explore a wide range of crypto
         assets and gain insights into the market trends and volatility, helping
         them make informed investment decisions.
-      </P>
+      </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
@@ -52,4 +52,4 @@ const Work = () => (
 
 export default Work;
 
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';

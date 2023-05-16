@@ -1,8 +1,8 @@
 import { SimpleGrid, Container, Heading, Link } from '@chakra-ui/react';
-import Layout from '../../components/Layouts/Article';
 import { WorkImage } from '@/components/Works';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 import Section from '@/components/Section';
+import Layout from '@/components/layouts/Article';
 
 const Design = () => {
     return (
@@ -53,4 +53,4 @@ const Design = () => {
 
 export default Design;
 
-export { getServerSideProps } from "../../components/Chakra";
+export { getServerSideProps } from "@/components/Chakra";

@@ -1,13 +1,13 @@
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "@/components/Section";
-import { WorkGridItem } from "@/components/gridItem";
+import { WorkGridItem } from "@/components/GridItem";
 import statisto from '../../../public/images/works/statisto.png';
 import boiswap from '../../../public/images/works/boiswap.png';
 import coffeeShop from '../../../public/images/works/coffee-shop.png';
 import ecommerceNikeShoes from '../../../public/images/works/ecommerce-nike-shoes.png';
 import omnifood from '../../../public/images/works/omnifood.png';
 import steamScape from '../../../public/images/works/steam-scape.png';
-import Layout from "@/components/Layouts/Article";
+import Layout from "@/components/layouts/Article";
 import Footer from "@/components/Footer";
 
 const Works = () => (
@@ -71,4 +71,4 @@ const Works = () => (
 
 export default Works;
 
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from '@/components/Chakra';
