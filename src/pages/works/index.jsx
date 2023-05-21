@@ -7,7 +7,6 @@ import coffeeShop from '../../../public/images/works/coffee-shop.png';
 import ecommerceNikeShoes from '../../../public/images/works/ecommerce-nike-shoes.png';
 import omnifood from '../../../public/images/works/omnifood.png';
 import steamScape from '../../../public/images/works/steam-scape.png';
-import weatherApp from '../../../public/images/works/weather-app.png';
 import Layout from "@/components/layouts/Article";
 import Footer from "@/components/Footer";
 
@@ -27,17 +26,6 @@ const Works = () => (
           >
             Steam Scape is a video-sharing website that provides a free platform
             for users to watch videos similar to Youtube.
-          </WorkGridItem>
-        </Section>
-
-        <Section>
-          <WorkGridItem
-            id="WeatherApp"
-            title="weather-app"
-            thumbnail={weatherApp}
-          >
-            The Weather App website is a platform that provides users with
-            information related to the weather.
           </WorkGridItem>
         </Section>
 

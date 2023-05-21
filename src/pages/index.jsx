@@ -9,6 +9,7 @@ import Interest from "@/components/homepage/Interest";
 import Footer from "@/components/Footer";
 import Media from "@/components/homepage/Media";
 import Works from "@/components/homepage/Works";
+import Stack from "@/components/homepage/Stack";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Bio />
         <Interest />
         <Media />
+        <Stack />
         <Footer />
       </Container>
     </Layout>
