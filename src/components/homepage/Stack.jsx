@@ -1,5 +1,4 @@
 import { Heading, List, ListItem, Button } from "@chakra-ui/react";
-import Link from "next/link";
 
 // import component
 import Section from "../Section";
